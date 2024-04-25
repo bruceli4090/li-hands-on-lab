@@ -1,5 +1,5 @@
 steps:
-  STG_REGION-9cf37466-2fd2-4f53-912c-399b4aa4ba41:
+  STG_REGION_do_you_se_me-9cf37466-2fd2-4f53-912c-399b4aa4ba41:
     operation:
       config:
         insertStrategy: INSERT
@@ -69,9 +69,9 @@ steps:
                 nodeName: REGION
             join:
               joinCondition: FROM {{ ref('SRC', 'REGION') }} "REGION"
-            name: STG_REGION
+            name: STG_REGION_do_you_se_me
             noLinkRefs: []
-      name: STG_REGION
+      name: STG_REGION_do_you_se_me
       overrideSQL: false
       schema: ""
       sqlType: Stage
